@@ -1,0 +1,23 @@
+# Large data — never commit
+data/reference/
+data/raw/
+data/funcotator/
+results/aligned/
+results/markdup/
+results/bqsr/
+*.bam
+*.bai
+*.fastq
+*.fastq.gz
+*.vcf.gz
+*.vcf.gz.tbi
+*.tar.gz
+
+# Keep small/important results
+!results/variants/somatic.funcotated.maf
+!results/figures/
+!results/markdup/*.metrics.txt
+
+# Logs
+logs/*.log
+data/bundle/
